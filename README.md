@@ -91,7 +91,7 @@ sudo apt-get install jibri
 
 ### User, group
 * Jibri is currently meant to be run as a regular system user. This example creatively uses username 'jibri' and group name 'jibri', but any user will do. This has not been tested with the root user.
-* Ensure that the jibri user is in the correct groups to make full access of the audio and video devices. The example jibri account in Ubuntu 16.04 are: "adm","audio","video","plugdev".
+* Ensure that the jibri user is in the correct groups to make full access of the audio and video devices. The example jibri account groups in Ubuntu 16.04 are: "adm","audio","video","plugdev".
 `sudo usermod -aG adm,audio,video,plugdev jibri`
 
 ### Config files
